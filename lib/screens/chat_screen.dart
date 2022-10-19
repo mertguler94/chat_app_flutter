@@ -48,6 +48,7 @@ class _ChatScreenState extends State<ChatScreen> {
         title: const Text('FlutterChat'),
         actions: [
           DropdownButton(
+            underline: Container(),
             items: [
               DropdownMenuItem(
                   value: 'logout',
